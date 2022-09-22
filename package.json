@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
@@ -25,10 +24,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  },
-  
-  "engines": {
-    "node": "12.16.2",
-    "npm": "6.14.6"
   }
 }
